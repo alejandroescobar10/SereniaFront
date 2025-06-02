@@ -1,4 +1,4 @@
-const API = 'http://localhost:3001/api';
+const API = 'https://serenia-back.vercel.app/api';
 
 export async function register(data) {
   const res = await fetch(`${API}/register`, {
